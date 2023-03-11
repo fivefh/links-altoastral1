@@ -4,20 +4,20 @@
 }
 
 :root{
-  --body-bg: #fff;
+  --body-bg: #081220;
   --body-color: #97ffbe;
   --btn-color: #97ffbe;
-  --btn-bg: #fff;
+  --btn-bg: #081220;
   --btn-bg-hover: #97ffbe;
-  --btn-color-hover: #fff;
+  --btn-color-hover: #081220;
 }
 
 .dark-mode:root {
   --body-bg: #081220;
-  --body-color: #fff;
-  --btn-color: #fff;
+  --body-color: #081220;
+  --btn-color: #081220;
   --btn-bg: #081220;
-  --btn-bg-hover: #fff;
+  --btn-bg-hover: #081220;
   --btn-color-hover: #081220;
 }
 
