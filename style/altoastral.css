@@ -8,11 +8,12 @@ body{
   justify-content: center;
   margin: 0;
   background-image: url("baby.jpg");
-  color: #fff;
+  color: #4ef18d;
   font-size: 96px;
   font-family: 'Fira Mono', monospace;
   letter-spacing: -7px;
 }
+
 
 .bannervideo {
   position: absolute;
@@ -89,4 +90,14 @@ div:after{
   62%{
     transform: translate(-22px,5px) skew(21deg); 
   }
+}
+
+.container {
+  position: relative;
+}
+
+.child {
+  font-size: 50px;
+  margin: 200px 0 0 -370px;
+  white-space: nowrap;
 }
