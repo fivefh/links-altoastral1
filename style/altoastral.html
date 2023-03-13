@@ -1,30 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alto Astral</title>
-    <meta http-equiv="refresh" content="0;mtasa://">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="altoastral.css">
-</head>
-<body>
 
-    <!--mtasa://188.191.97.3:22743-->
-    <!--<audio src="baby.mp3" autoplay loop></audio>-->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta http-equiv="refresh" content="0;mtasa://188.191.97.3:22743">
+        <title>Alto Astral - Connect Page</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+        <style>
+            body {
+                width: auto;
+                background-color: #081220;
+                color: #00F8B9;
+                font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 1.25em;
+            }
 
+            .main-content {
+                display: flex;
+                flex-flow: row wrap;
+                text-align: center;
+                position: relative;
+            }
 
+            .header {
+                flex-basis: 100%;
+                display: block;
+            }
 
-    <div class="foto">
-        <div class="foto2">
-            <img class="foto2" src="yuimetal1.jpg" >
+            .header-image {
+                width: 33%;
+            }
+
+            .streamers {
+                color: #FF487C;
+            }
+
+            hr {
+                color: #00F8B9;
+            }
+
+            .waifu {
+                flex-basis: 100%;
+                display: block;
+            }
+
+            .uwu-image {
+                width: 22%;
+                clip-path: circle(50% at center);
+                transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            }
+
+            .uwu-image:hover {
+                width: 23%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!--<audio src="baby.mp3" autoplay loop></audio>-->
+        <div class="main-content">
+            <div class="header">
+                
+                <h1 class="streamers">⭐ALTO ASTRAL⭐</h1>
+                <hr>
+                <h1>Conectando...</h1>
+                <h3>Você pode fechar esta janela depois de conectar.</h3>
+                <h3 class="streamers"></h3>
+            </div>
+            <div class="waifu">
+                <div class="teste">
+                    <img class="uwu-image" src="waifus/03.jpg" alt="">
+                </div>
+            </div>
         </div>
-    </div>
+        <script>
+            const AvailableWaifus = 4
 
-    <div class="container">
-        <div class="child"><!--Você sera direcionado agora--->IP INDISPONÍVEL</div>
-    </div>
+            const waifu = Math.floor(Math.random() * AvailableWaifus) + 1;
 
-</body>
+            const image = document.getElementsByClassName('uwu-image')[0];
+
+            
+        </script>
+    </body>
 </html>
